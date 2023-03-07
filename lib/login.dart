@@ -11,12 +11,9 @@ class LoginPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            SizedBox(
-                child: Text(
-                  'Welcome to Login Page',
-                  style: TextStyle(fontSize: 24),
-                )),
+          children: <Widget> [
+
+            Image.network('https://w7.pngwing.com/pngs/537/866/png-transparent-flutter-hd-logo.png', width: 50, height: 50,),
             SizedBox(height: 20),
             SizedBox(
                 width: MediaQuery.of(context).size.width * 0.75,
